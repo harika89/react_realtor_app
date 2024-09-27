@@ -10,7 +10,7 @@ app.use("/api/posts", postRoutes);
 app.use("/api/auth", authRoute);
 
 app.listen(8800, () =>{
-    console.log("server is running");
+    console.log("server is running on http://localhost:8800");
 }
 
 );
